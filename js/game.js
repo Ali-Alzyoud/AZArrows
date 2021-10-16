@@ -11,7 +11,7 @@ var Game = function(levelData,width,height,successCallback,failCallback) {
 Game.prototype.setLevelData = function(levelData){
    this.centerCircle = new CenterCircle(
          new Location(this.width * levelData.centerPosition.x,this.height * levelData.centerPosition.y),
-         this.width * levelData.circleRadius,levelData.circleSpeed,levelData.arrowSpeed,levelData.level ,this.successCallback,this.failCallback);
+         this.width * levelData.circleRadius,levelData.circleSpeed,levelData.arrowSpeed*2,levelData.level ,this.successCallback,this.failCallback);
 
    A_L = levelData.arrowLength;
    A_R = levelData.arrowRadius;
