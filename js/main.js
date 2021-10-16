@@ -84,7 +84,6 @@ window.onload = function() {
       }
       
       game.update();
-      game.update();
       
       
    }, 24);
