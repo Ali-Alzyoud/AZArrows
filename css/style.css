@@ -4,7 +4,7 @@
 
 body {
     margin: 0px auto;
-    background-color:#E0E0E0;
+    background: repeating-radial-gradient(#E0E0E0, transparent 100px);
 }
 
 .contents {
